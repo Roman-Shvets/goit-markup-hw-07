@@ -1,0 +1,36 @@
+.hero {
+    background-color: var(--hero-color);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right, var(--hero-gradient), var(--hero-gradient)),
+        url("../images/hero-team.jpg");
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-back-color);
+    max-width: 696px;
+    margin: 0 auto 30px;
+}
+
+.hero__button {
+    font-family: inherit;
+    background: var(--accent-color);
+    color: var(--primary-back-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}

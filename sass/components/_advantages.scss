@@ -1,0 +1,37 @@
+.advant {
+    padding: 94px 0 0 0;
+}
+
+.advant__items {
+    display: flex;
+    gap: 30px;
+    padding: 0 0;
+}
+
+.advant__card {
+    display: flex;
+    background-color: var(--filter-button-color);
+    max-width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.advant__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    margin-bottom: 10px;
+}
+
+.advant__description {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    max-width: 270px;
+}

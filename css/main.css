@@ -593,6 +593,8 @@ header {
   background-image: url("../images/check.svg");
   background-size: contain;
   border-color: var(--accent-color);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .checkbox-label__icon {
